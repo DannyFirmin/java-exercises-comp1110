@@ -152,4 +152,4 @@ close the issue (#13), and show your tutor.
 	
 ## Prepare for lab test 2
 
-Use any spare time you have to work on preparing for lab test 2 and working on your group assignment.
+Use any spare time you have to work on preparing for [lab test 2](https://cs.anu.edu.au/courses/comp1110/assessments/labtest2/) and working on your group assignment.

@@ -51,5 +51,5 @@ groups for the group assignment.
 
 ##  Preparing for lab test 2
 
-Use any spare time you have to work on preparing for [lab test 2](labtest2/README.md)
+Use any spare time you have to work on preparing for [lab test 2](https://cs.anu.edu.au/courses/comp1110/assessments/labtest2/)
 and working on your group assignment.

@@ -134,5 +134,5 @@ Test your program using the `L2 TriangleTest` test.
 ## Prepare for the lab test
 
 If you finish early, use any spare time you have to do further preparation
-for [lab test 1](labtest1/README.md). You are encouraged to ask your tutor
+for [lab test 1](https://cs.anu.edu.au/courses/comp1110/assessments/labtest1/). You are encouraged to ask your tutor
 for help in understanding how to complete any of those questions.
