@@ -277,7 +277,7 @@ work and then close the associated issues.
 ### Set up IntelliJ (home)
 
 You now need to configure your home computer/laptop.  **Before you start**, you
-must have [set up the software for your home computer](https://gitlab.cecs.anu.edu.au/comp1110/comp1110/wikis/working-remotely).
+must have [set up the software for your home computer](https://cs.anu.edu.au/courses/comp1110/help/05-working-remotely/).
 
 Once you have the software installed, you will need to
 carefully repeat the [process from the start of this lab](#set-up-intellij-lab)
