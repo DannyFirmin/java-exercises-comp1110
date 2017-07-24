@@ -12,7 +12,7 @@ three deliverables off:**
 
 We want you to do this **now**, in week one, so that you can focus on course content from the first day of week two rather than be distracted by concerns over how the tools work.   This is your chance to get yourself established and familiar with the tools with the assistance of the course tutors.  Please make the most of the opportunity.
 
-I have created a step-by-step [video](http://cs.anu.edu.au/courses/COMP1110/howto/lab1.mp4) showing you how to complete this lab in the lab environment.
+I have created a step-by-step [video](https://cs.anu.edu.au/courses/comp1110/help/mp4/lab1.mp4) showing you how to complete this lab in the lab environment.
 
 ## Tasks
 
