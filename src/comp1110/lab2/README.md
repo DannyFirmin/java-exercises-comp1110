@@ -78,6 +78,11 @@ terminal to set your upstream remote (steps 2-6).
 Once you have completed this task, close the associated issue (#8) with a
 suitable comment.
 
+You can repeat the above exercise for the homework and assignment repos.  The
+steps are the same, but you need to change the repo name (in the obvious way)
+in step one (using comp1110-homework and comp1110-ass1 respectively, instead
+of comp1110-labs).
+
 ## Imperative Coding Tasks
 
 The following programming tasks exercise simple *imperative* programming,
