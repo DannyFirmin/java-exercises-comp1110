@@ -80,8 +80,8 @@ suitable comment.
 
 You can repeat the above exercise for the homework and assignment repos.  The
 steps are the same, but you need to change the repo name (in the obvious way)
-in steps 6, 7, and 9 (using comp1110-homework and comp1110-ass1 respectively, instead
-of comp1110-labs).
+in steps 6, 7, and 9 (using `comp1110-homework` and `comp1110-ass1` respectively, instead
+of `comp1110-labs`).
 
 ## Imperative Coding Tasks
 

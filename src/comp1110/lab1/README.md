@@ -63,10 +63,10 @@ I have created a step-by-step [video](https://cs.anu.edu.au/courses/comp1110/hel
     computer.   Later you can do the same on your own computer.   *Although you
     might have multiple clones of your repo on different devices, the*
     **definitive** *version always resides on GitLab, in the cloud.*
-    
+
     At the end of this lab, you can repeat this process for the [homework](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-homework)
 and [assignment 1](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass1) repos.
-    
+
 3.  **Find this document within your labs repo.**
 
     At this point in the lab you should see `Your Name/comp1110-labs` at top
@@ -316,7 +316,7 @@ marked off.  Be sure to show them:
 * Your signed pledge (give this to them now if you have not already)
 * Your work on the lab machine
 * Your work on your laptop (they will want to see the Git log that shows your work).
-   
+
 ### Accessing homework and assignment repos
 
 You should fork and clone the [homework](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-homework)
