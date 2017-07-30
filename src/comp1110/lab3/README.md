@@ -17,6 +17,10 @@ groups for the group assignment.
     Java class, `Bucket`.  Instances of this class will represent a bucket
     that can be filled with water.  When you create a new `Bucket` object, that new object will
     represent a bucket with a particular capacity, `capacity` and certain contents, `contents`.
+    
+    The constructor for a Bucket should take the capacity as an argument.   The constructor's
+    signature should thus be `Bucket(double capacity)`.
+    
     In your object, both `capacity`
     and `contents` should be stored as `doubles`.  Because `capacity` and `contents` are distinct
     properties of *each object* (not properties of the class), they need to be
@@ -28,7 +32,7 @@ groups for the group assignment.
     The `Bucket` class should have four public **instance** methods (not *static*
     methods). 
     
-    The first is`getCapacity()`, which returns a double reflecting the capacity of the bucket.
+    The first is` getCapacity()`, which returns a double reflecting the capacity of the bucket.
     The second is `getContents()`, which returns a double reflecting the current contents of the bucket.
     The third is `empty()`, which will empty the bucket (its contents will now be zero), and will
     return the capacity of the bucket before it was empty (i.e. how much was emptied from the bucket).
