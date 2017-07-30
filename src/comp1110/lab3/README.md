@@ -9,29 +9,34 @@ groups for the group assignment.
 
 ## Tasks
 
-1. **Create, debug and test the Point class.**
+1. **Create, debug and test the Bucket class.**
 
     This exercise develops the concept of an *object*.
     
     In the Java package `comp1110.lab3`, within your labs repo, create a new
-    Java class, `Point`.  Instances of this class will represent a cartesian (xy)
-    point.  When you create a new `Point` object, that new object will
-    represent a single cartesian point.  In your object, both `x`
-    and `y` should be stored as `doubles`.  Because `x` and `y` are distinct
+    Java class, `Bucket`.  Instances of this class will represent a bucket
+    that can be filled with water.  When you create a new `Bucket` object, that new object will
+    represent a bucket with a particular capacity, `capacity` and certain contents, `contents`.
+    In your object, both `capacity`
+    and `contents` should be stored as `doubles`.  Because `capacity` and `contents` are distinct
     properties of *each object* (not properties of the class), they need to be
     declared as **instance** fields, not *class* fields.  This means you don't
-    use a `static` qualifier when you declare the field.
-    The `Point` class should have two public **instance** methods (not *static*
-    methods). The first is
-    `toString()`, which displays the point as a String
-    (e.g. if x = 10.0 and y = 3.0 then it would return the String `(10.0, 3.0)`).
-    The second, called `euc`, returns, as a double, the distance between the
-    point represented by that instance, and the origin (i.e. the euclidian 
-    distance to the origin, the distance between the point and (0.0, 0.0)).
-    Implement the class `Point` with a main method that reads in two doubles
-    (on separate lines), uses them to create a new `Point` object, calls the
-    `euc` method, and then prints out the distance to the origin for the
-    new object. Test your work using the provided `L3 PointTest` class.
+    use a `static` qualifier when you declare the field.   The `capacity` field will never
+    change (the capacity of a bucket is something that does not (normaly) change), so it
+    can be declared as `final`.   Both fields should be private to the `Bucket` class.
+    
+    The `Bucket` class should have four public **instance** methods (not *static*
+    methods). 
+    
+    The first is`getCapacity()`, which returns a double reflecting the capacity of the bucket.
+    The second is `getContents()`, which returns a double reflecting the current contents of the bucket.
+    The third is `empty()`, which will empty the bucket (its contents will now be zero), and will
+    return the capacity of the bucket before it was empty (i.e. how much was emptied from the bucket).
+    The fourth is `add(double amount)`, which will add the given amount to the bucket, and increase
+    the contents accordingly, but it will never increase the contents to be more than the capacity
+    (i.e. any extra water will be spilled, so the total contents can never be higher than the capacity).
+    
+    Test your work using the provided `L3 BucketTest` class.
     
     Commit all of your work to git, push, close the associated issue (#10), and
     show your tutor.
@@ -51,5 +56,5 @@ groups for the group assignment.
 
 ##  Preparing for lab test 2
 
-Use any spare time you have to work on preparing for [lab test 2](https://cs.anu.edu.au/courses/comp1110/assessments/labtest2/)
+Use any spare time you have to work on your homework exercises, preparing for [lab test 2](https://cs.anu.edu.au/courses/comp1110/assessments/labtest2/)
 and working on your group assignment.
