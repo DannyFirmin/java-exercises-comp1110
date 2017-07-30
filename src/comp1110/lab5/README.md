@@ -4,7 +4,7 @@
 
 In this lab you will write a simple Java FX program and use any spare time to prepare for lab test 2.
 
-**It is essential that you complete this lab and have a tutor mark it off**.
+**It is essential that you complete this lab and have a tutor mark it off during the lab**.
 
 ## A simple JavaFX animation
 

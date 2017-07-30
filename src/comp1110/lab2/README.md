@@ -10,7 +10,7 @@ repo, and the Java exercises are done in IntelliJ.   You may work on your own
 computer, but you will need to share your
 work with your tutor and discuss it with them in your lab.
 
-**It is essential that you complete this lab and have a tutor mark it off**.
+**It is essential that you complete this lab and have a tutor mark it off during the lab**.
 
 ## GitLab Task
 

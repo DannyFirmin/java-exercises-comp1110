@@ -5,7 +5,7 @@
 The first lab is intended to ensure that you have become familiar with the basic tools we will be using throughout the semester in the labs at ANU and on your own computer (if you plan to use one).
 
 **It is essential that you complete this lab and have a tutor mark each of the
-three deliverables off:**
+three deliverables off during the lab:**
 1. Your pledge of academic integrity.
 2. Completion of the HelloWorld example on the lab computer.
 3. Completion of the HelloWorld example on your laptop.

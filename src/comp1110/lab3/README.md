@@ -5,7 +5,7 @@
 In this lab you will develop a very simple object-oriented Java program and will form
 groups for the group assignment.
 
-**It is essential that you complete this lab and have a tutor mark it off**.
+**It is essential that you complete this lab and have a tutor mark it off during the lab**.
 
 ## Tasks
 

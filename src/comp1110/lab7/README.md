@@ -4,7 +4,7 @@
 
 In this lab you will write a Java FX program that demonstrates drag-and-drop.
 
-**It is essential that you complete this lab and have a tutor mark it off**.
+**It is essential that you complete this lab and have a tutor mark it off during the lab**.
 
 ## JavaFX Drag and Drop
 

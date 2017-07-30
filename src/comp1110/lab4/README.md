@@ -4,7 +4,7 @@
 
 In this lab you will complete a git exercise in which you will practice using git in a group setting, and you will develop a more complex Java program.
 
-**It is essential that you complete this lab and have a tutor mark it off**.
+**It is essential that you complete this lab and have a tutor mark it off during the lab**.
 
 ## GitLab Upstream Pulls for Assignement
 
