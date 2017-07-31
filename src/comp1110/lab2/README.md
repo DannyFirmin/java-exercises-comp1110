@@ -53,7 +53,7 @@ work with your tutor and discuss it with them in your lab.
 	to do.
 	9. Bring up the `Version Control` panel at the bottom of your IntelliJ
 	window, and select `Log`, and notice that you now have new changes in your history.
-	10. Commit and push your merge.
+	10. `Push` your merge.
 
 After you pull remote commits into your repo, commit, and push them, they will
 be visible to all clones of your repo.   Go to the GitLab web page for your labs
