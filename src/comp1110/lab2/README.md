@@ -38,7 +38,7 @@ work with your tutor and discuss it with them in your lab.
 	You should compete the following exercise.   In these steps you will update
 	your *personal* comp1110-labs repo with some changes.
 
-	1. open your comp1110-labs repo in IntelliJ.
+	1. Open your comp1110-labs repo in IntelliJ.
 	2. Select VCS -> Git -> Remotes...
 	3. Select the "+" button to add the comp1110 labs repo as a remote upstream repo
 	(Name: `upstream` URL:`https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs.git`). Select OK.
