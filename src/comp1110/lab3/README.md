@@ -17,6 +17,8 @@ groups for the group assignment.
     Java class, `Bucket`.  Instances of this class will represent a bucket
     that can be filled with water.  When you create a new `Bucket` object, that new object will
     represent a bucket with a particular capacity, `capacity` and certain contents, `contents`.
+    The units of measurement are not important to this exercise, but you could imagine
+    that it was litres.
     
     The constructor for a Bucket should take the capacity as an argument.   The constructor's
     signature should thus be `Bucket(double capacity)`.
@@ -39,6 +41,17 @@ groups for the group assignment.
     The fourth is `add(double amount)`, which will add the given amount to the bucket, and increase
     the contents accordingly, but it will never increase the contents to be more than the capacity
     (i.e. any extra water will be spilled, so the total contents can never be higher than the capacity).
+    
+    You should create a main method, and in that method, declare two local variables:
+    `big` and `small`, both of type `Bucket`.   Initialize `big` by 
+    instantiating a new bucket with capacity 10.0.   Initialize `small` by instantiating
+    a new bucket with capacity 1.0.  Use the `add()` method to add 20.0 to each bucket
+    then print out the bucket contents using `getContents()`.  You should find that 
+    both buckets are full to capacity, but not more.   Then use `empty()` to empty
+    the `big` bucket and  print out the bucket's contents, and ensure that it
+    is in fact empty.   Then empty the `small` bucket into the `big` bucket.  Print
+    out the contents of each of them and ensure that the `small` bucket is empty
+    and the `big` bucket has 1.0 in it.
     
     Test your work using the provided `L3 BucketTest` class.
     
