@@ -33,54 +33,42 @@ work with your tutor and discuss it with them in your lab.
 	is derived.   In your case, the *upstream* repo is the one from which your
 	repo was forked (one created by your lecturer).  Git has [advanced](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 	mechanisms for pulling changes from an upstream repo; we'll just look at
-	something quite specific in this lab.   Much of this is supported by IntelliJ,
-	but unfortunately, the crucial first step of [specifying](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#Adding-Remote-Repositories)
-	the address of the upstream repo is [not supported](https://youtrack.jetbrains.com/oauth?state=%2Fissue%2FIDEA-87099)
-	by IntelliJ at the moment.
-
+	something quite specific in this lab.
 
 	You should compete the following exercise.   In these steps you will update
 	your *personal* comp1110-labs repo with some changes.
 
-	0. Quit IntelliJ if you have it open.
-	1. Start a terminal (use the menu at top left).
-	2. Change directory (`cd`) into the folder that contains your intelliJ
-	projects (`cd IdeaProjects`).
-	3. Change directory (`cd`) into your labs repo (`cd comp1110-labs`).
-	4. List  the currently known remote repos for the project (`git remote -v`).
-	5. Add the comp1110 labs repo as a remote upstream repo (`git remote add
-	upstream https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs.git`).
-	6. Now open your comp1110-labs repo in IntelliJ.
-	7. Prepare to pull changes (VCS -> Git -> Pull...).
-	8. Use the drop-down menu to change the 'Remote' to be
+	1. open your comp1110-labs repo in IntelliJ.
+	2. Select VCS -> Git -> Remotes...
+	3. Select the "+" button to add the comp1110 labs repo as a remote upstream repo
+	(Name: `upstream` URL:`https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs.git`). Select OK.
+	4. Prepare to pull changes (VCS -> Git -> Pull...).
+	5. Use the drop-down menu to change the 'Remote' to be
 	`upstream(https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs.git)`.
-	9. Refresh the list of branches by clicking the refresh button to the right of the dropdown.
-	10. Select the `upstream/master` branch.
-	11. Click `Pull`.  This should behave just like a merge from your last lab
+	6. Refresh the list of branches by clicking the refresh button to the right of the dropdown.
+	7. Select the `upstream/master` branch.
+	8. Click `Pull`.  This should behave just like a merge from your last lab
 	exercise, and work without further interaction.   If not, you may need to
 	merge, in which case you should consult your tutor if you're unsure what
 	to do.
-	12. Bring up the `Version Control` panel at the bottom of your IntelliJ
+	9. Bring up the `Version Control` panel at the bottom of your IntelliJ
 	window, and select `Log`, and notice that you now have new changes in your history.
-	13. Commit and push your merge.
+	10. Commit and push your merge.
 
 After you pull remote commits into your repo, commit, and push them, they will
 be visible to all clones of your repo.   Go to the GitLab web page for your labs
 repo, and use the `Commits` and `Network` menu options (on the left menu) to
 see how the changes you pulled have been integrated into your own repo.
  
-You can pull your changes into other clones of your labs repo (such as on your
-home computer).   If you have linux or MacOS on your computer, the process is
-identical to the above.   If you have windows on your computer, you will
-need to use [git bash](https://git-for-windows.github.io) rather than a
-terminal to set your upstream remote (steps 2-6).
+You can also pull your changes into other clones of your labs repo (such as on your
+home computer) using the process described above.
 
 Once you have completed this task, close the associated issue (#8) with a
 suitable comment.
 
-You can repeat the above exercise for the homework and assignment repos.  The
+You can **repeat the above exercise for the homework and assignment repos**.  The
 steps are the same, but you need to change the repo name (in the obvious way)
-in steps 6, 7, and 9 (using `comp1110-homework` and `comp1110-ass1` respectively, instead
+in steps 1, 3, and 5 (using `comp1110-homework` and `comp1110-ass1` respectively, instead
 of `comp1110-labs`).
 
 ## Imperative Coding Tasks
