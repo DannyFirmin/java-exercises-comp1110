@@ -39,7 +39,7 @@ work with your tutor and discuss it with them in your lab.
 	your *personal* comp1110-labs repo with some changes.
 
 	1. Open your comp1110-labs repo in IntelliJ.
-	2. Commit any local changes before starting the upstream pull (VCS -> Commit Changes...).
+	2. If you have any uncommitted changes, commit them before starting the upstream pull (VCS -> Commit Changes...).
 	3. Select VCS -> Git -> Remotes...
 	4. Select the "+" button to add the comp1110 labs repo as a remote upstream repo
 	(Name: `upstream` URL:`https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs.git`). Select OK.
@@ -54,7 +54,7 @@ work with your tutor and discuss it with them in your lab.
 	to do.
 	10. Bring up the `Version Control` panel at the bottom of your IntelliJ
 	window, and select `Log`, and notice that you now have new changes in your history.
-	10. `Push` your merge.
+	10. `Push` your merge (VCS -> Git -> Push...)
 
 After you pull remote commits into your repo, commit, and push them, they will
 be visible to all clones of your repo.   Go to the GitLab web page for your labs
