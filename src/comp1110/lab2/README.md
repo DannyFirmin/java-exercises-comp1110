@@ -39,25 +39,26 @@ work with your tutor and discuss it with them in your lab.
 	your *personal* comp1110-labs repo with some changes.
 
 	1. Open your comp1110-labs repo in IntelliJ.
-	2. Select VCS -> Git -> Remotes...
-	3. Select the "+" button to add the comp1110 labs repo as a remote upstream repo
+	2. Commit any local changes before starting the upstream pull (VCS -> Commit Changes...).
+	3. Select VCS -> Git -> Remotes...
+	4. Select the "+" button to add the comp1110 labs repo as a remote upstream repo
 	(Name: `upstream` URL:`https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs.git`). Select OK.
-	4. Prepare to pull changes (VCS -> Git -> Pull...).
-	5. Use the drop-down menu to change the 'Remote' to be
+	5. Prepare to pull changes (VCS -> Git -> Pull...).
+	6. Use the drop-down menu to change the 'Remote' to be
 	`upstream(https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs.git)`.
-	6. Refresh the list of branches by clicking the refresh button to the right of the dropdown.
-	7. Select the `upstream/master` branch.
-	8. Click `Pull`.  This should behave just like a merge from your last lab
+	7. Refresh the list of branches by clicking the refresh button to the right of the dropdown.
+	8. Select the `upstream/master` branch.
+	9. Click `Pull`.  This should behave just like a merge from your last lab
 	exercise, and work without further interaction.   If not, you may need to
 	merge, in which case you should consult your tutor if you're unsure what
 	to do.
-	9. Bring up the `Version Control` panel at the bottom of your IntelliJ
+	10. Bring up the `Version Control` panel at the bottom of your IntelliJ
 	window, and select `Log`, and notice that you now have new changes in your history.
 	10. `Push` your merge.
 
 After you pull remote commits into your repo, commit, and push them, they will
 be visible to all clones of your repo.   Go to the GitLab web page for your labs
-repo, and use the `Commits` and `Network` menu options (on the left menu) to
+repo, and use the `Commits` and `Graph` menu options (on the top-center menu) to
 see how the changes you pulled have been integrated into your own repo.
  
 You can also pull your changes into other clones of your labs repo (such as on your
