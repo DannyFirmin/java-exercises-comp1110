@@ -28,7 +28,7 @@ groups for the group assignment.
     properties of *each object* (not properties of the class), they need to be
     declared as **instance** fields, not *class* fields.  This means you don't
     use a `static` qualifier when you declare the field.   The `capacity` field will never
-    change (the capacity of a bucket is something that does not (normaly) change), so it
+    change (the capacity of a bucket is something that does not (normally) change), so it
     can be declared as `final`.   Both fields should be private to the `Bucket` class.
     
     The `Bucket` class should have four public **instance** methods (not *static*
@@ -41,6 +41,7 @@ groups for the group assignment.
     The fourth is `add(double amount)`, which will add the given amount to the bucket, and increase
     the contents accordingly, but it will never increase the contents to be more than the capacity
     (i.e. any extra water will be spilled, so the total contents can never be higher than the capacity).
+    The `add` method does not return a value, therefore the return type is `void`.
     
     You should create a main method, and in that method, declare two local variables:
     `big` and `small`, both of type `Bucket`.   Initialize `big` by 
