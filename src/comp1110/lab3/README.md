@@ -34,7 +34,7 @@ groups for the group assignment.
     The `Bucket` class should have four public **instance** methods (not *static*
     methods). 
     
-    The first is` getCapacity()`, which returns a double reflecting the capacity of the bucket.
+    The first is `getCapacity()`, which returns a double reflecting the capacity of the bucket.
     The second is `getContents()`, which returns a double reflecting the current contents of the bucket.
     The third is `empty()`, which will empty the bucket (its contents will now be zero), and will
     return the capacity of the bucket before it was empty (i.e. how much was emptied from the bucket).
