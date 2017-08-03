@@ -36,8 +36,8 @@ groups for the group assignment.
     
     The first is `getCapacity()`, which returns a double reflecting the capacity of the bucket.
     The second is `getContents()`, which returns a double reflecting the current contents of the bucket.
-    The third is `empty()`, which will empty the bucket (its contents will now be zero), and will
-    return the capacity of the bucket before it was empty (i.e. how much was emptied from the bucket).
+    The third is `empty()`, which will empty the bucket (its contents will then be zero), and will
+    return the contents of the bucket before it was empty (i.e. how much was emptied from the bucket).
     The fourth is `add(double amount)`, which will add the given amount to the bucket, and increase
     the contents accordingly, but it will never increase the contents to be more than the capacity
     (i.e. any extra water will be spilled, so the total contents can never be higher than the capacity).
