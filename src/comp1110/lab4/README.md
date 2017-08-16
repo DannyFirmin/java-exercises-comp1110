@@ -6,7 +6,7 @@ In this lab you will complete a git exercise in which you will practice using gi
 
 **It is essential that you complete this lab and have a tutor mark it off during the lab**.
 
-## GitLab Upstream Pulls for Assignement
+## GitLab Upstream Pulls for Assignement Two
 
 **One** group member should do the following.   Once complete, each of the
 other group members can pull the changes.
