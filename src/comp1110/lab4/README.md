@@ -8,37 +8,30 @@ In this lab you will complete a git exercise in which you will practice using gi
 
 ## GitLab Upstream Pulls for Assignement Two
 
-**One** group member should do the following.   Once complete, each of the
-other group members can pull the changes.
+The process for upstream pulls for your group project is very similar to
+the process for your own (non-shared) repos.   The only difference is that
+only **one** group member should do the upstream pull, and once they've done
+that they can push their change, allowing the other group members to pull,
+leaving you all with the same view of your updated repo.
 
-0. Quit IntelliJ if you have it open.
-1. Start a terminal (use the menu at top left)
-2. Change directory (`cd`) into the folder that contains your intelliJ
-projects (`cd IdeaProjects`)
-3. Change directory (`cd`) into your assignment repo (`cd comp1110-ass2-<yourgroup>`
-or `cd comp1140-ass2-<yourgroup>`).
-4. Display the currently known remote repos for the project (`git remote -v`).
-5. Add the comp1110 assignment2 repo as a remote upstream repo (`git remote
-add upstream https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2.git` or
-`git remote add upstream https://gitlab.cecs.anu.edu.au/comp1110/comp1140-ass2.git`).
-6. Now open your comp1110-ass2 (or comp1140-ass2) repo in IntelliJ
-7. Prepare to pull changes (VCS -> Git -> Pull...)
-8. Use the drop-down menu to change the 'Remote' to be
-`upstream(https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2.git)'
-or 'upstream(https://gitlab.cecs.anu.edu.au/comp1110/comp1140-ass2.git)`.
-9. Refresh the list of branches by clicking the refresh button to the right
-of the dropdown.
-10. Select the `upstream/master` branch.
-11. Click `Pull`.  This should behave just like a merge from your last lab
-exercise, and work without further interaction.   If not, you may need to
-merge, in which case you should consult your tutor if you're unsure what to
-do.
-12. Bring up the `Version Control` panel at the bottom of your IntelliJ
-window, and select `Log`, and notice that you now have some new changes in
-your history.
-13. Commit and push your change.
-14. Your group members can now pull your change to their clones of the group
-repo.
+	1. Open your comp1110-labs repo in IntelliJ.
+	2. If **any group member** has any uncommitted changes, commit and push the changes, and if necessary pull them, before starting the upstream pull (VCS -> Commit Changes...).
+	3. Select VCS -> Git -> Remotes...
+	4. Select the "+" button to add the comp1110 labs repo as a remote upstream repo
+	(Name: `upstream` URL:`https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2.git`, or `comp1140-ass2.git` if you're in 1140). Select OK.
+	5. Prepare to pull changes (VCS -> Git -> Pull...).
+	6. Use the drop-down menu to change the 'Remote' to be
+	`upstream(https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2.git)`, or `comp1140-ass2.git` if you're in 1140.
+	7. Refresh the list of branches by clicking the refresh button to the right of the dropdown.
+	8. Select the `upstream/master` branch.
+	9. Click `Pull`.  This should behave just like a merge and work without further interaction.   If not, you may need to
+	merge, in which case you should consult your tutor if you're unsure what
+	to do.
+	10. Bring up the `Version Control` panel at the bottom of your IntelliJ
+	window, and select `Log`, and notice that you now have new changes in your history.
+	10. `Push` your merge (VCS -> Git -> Push...)
+	11. Your group members can now pull the repo and will see the changes.
+
 
 You can repeat these steps to pull further changes into your forks of class
 repos.   You only need to perform the steps on one of your clones and then
