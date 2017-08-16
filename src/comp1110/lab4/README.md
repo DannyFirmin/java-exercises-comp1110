@@ -14,7 +14,7 @@ only **one** group member should do the upstream pull, and once they've done
 that they can push their change, allowing the other group members to pull,
 leaving you all with the same view of your updated repo.
 
-1. Open your comp1110-labs repo in IntelliJ.
+1. Open your assignment two repo in IntelliJ.
 2. If **any group member** has any uncommitted changes, commit and push the changes, and if necessary pull them, before starting the upstream pull (VCS -> Commit Changes...).
 3. Select VCS -> Git -> Remotes...
 4. Select the "+" button to add the comp1110 labs repo as a remote upstream repo (Name: `upstream` URL:`https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2.git`, or `comp1140-ass2.git` if you're in 1140). Select OK.
