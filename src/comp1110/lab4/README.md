@@ -6,7 +6,7 @@ In this lab you will complete a git exercise in which you will practice using gi
 
 **It is essential that you complete this lab and have a tutor mark it off during the lab**.
 
-## GitLab Upstream Pulls for Assignement Two
+## GitLab Upstream Pulls for Assignment Two
 
 The process for upstream pulls for your group project is very similar to
 the process for your own (non-shared) repos.   The only difference is that
@@ -17,12 +17,12 @@ leaving you all with the same view of your updated repo.
 1. Open your assignment two repo in IntelliJ.
 2. If **any group member** has any uncommitted changes, commit and push the changes, and if necessary pull them, before starting the upstream pull (VCS -> Commit Changes...).
 3. Select VCS -> Git -> Remotes...
-4. Select the "+" button to add the comp1110 labs repo as a remote upstream repo (Name: `upstream` URL:`https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2.git`, or `comp1140-ass2.git` if you're in 1140). Select OK.
+4. Select the "+" button to add the comp1110 assignment 2 repo as a remote upstream repo (Name: `upstream` URL:`https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2.git`, or `comp1140-ass2.git` if you're in 1140). Select OK.
 5. Prepare to pull changes (VCS -> Git -> Pull...).
 6. Use the drop-down menu to change the 'Remote' to be`upstream(https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2.git)`, or `comp1140-ass2.git` if you're in 1140.
 7. Refresh the list of branches by clicking the refresh button to the right of the dropdown.
 8. Select the `upstream/master` branch.
-9. Click `Pull`.  This should behave just like a merge and work without further interaction.   If not, you may need tomerge, in which case you should consult your tutor if you're unsure what	to do.
+9. Click `Pull`.  This should behave just like a merge and work without further interaction.   If not, you may need to merge, in which case you should consult your tutor if you're unsure what	to do.
 10. Bring up the `Version Control` panel at the bottom of your IntelliJ window, and select `Log`, and notice that you now have new changes in your history.
 10. `Push` your merge (VCS -> Git -> Push...)
 11. Your group members can now pull the repo and will see the changes.
@@ -40,10 +40,10 @@ terminal to set your upstream remote (steps 2-6).
 ## Git groupwork
 
 This is a simple exercise that explores most of the git skills that you are
-expected to use in COMP1110. This exercise was demonstrated in a [howto video](https://cs.anu.edu.au/courses/comp1110/howto/gitexercise.mp4).
+expected to use in COMP1110. This exercise was demonstrated in a [howto video](https://cs.anu.edu.au/courses/comp1110/help/mp4/gitexercise.mp4).
 If you have not seen the video, I strongly recommend you watch it. If you get
 yourself into trouble doing this exercise, you may find it helpful to look at
-the video again. In the [video](https://cs.anu.edu.au/courses/comp1110/howto/gitexercise.mp4) I performed the role of all three characters
+the video again. In the video, I perform the role of all three characters
 (Alice, Bob and Cindy). You should do this exercise in the lab with your group
 members. If there are only two people in the group, you should be able to adapt
 the exercise by delegating Cindy's activities to Alice (so you just have Alice
