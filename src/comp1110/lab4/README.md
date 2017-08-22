@@ -32,8 +32,8 @@ You can repeat these steps to pull further changes into your forks of class
 repos.   You only need to perform the steps on one of your clones and then
 the changes will be visible (after pulling) at each clone of your repo.
 You can do this on the lab computers (as in this exercise) or on your home
-computer.   If you have linux or MacOS on your computer, the process is
-identical to the above.   If you have windows on your computer, you will
+computer.   If you have Linux or MacOS on your computer, the process is
+identical to the above.   If you have Windows on your computer, you will
 need to use [git bash](https://git-for-windows.github.io) rather than a
 terminal to set your upstream remote (steps 2-6).
 
@@ -59,21 +59,21 @@ sitting nearby to each other.
     * If you neglected to add the new files when they were created, add them now.  You will notice that IntelliJ colors the classes red if you've not added them.  You can add them via `VCS` -> `git` -> `Add`, or via the keyboard shortcut `Ctrl+Alt+A`.  The files will appear green once added.
     * Commit (`VCS` -> `Commit Changes...` or `Ctrl+K`), being sure to set the author's name to `Alice <u1234567@anu.edu.au>` (option at top right, replacing u1234567 with your UID).
     * Click `Commit`, choosing to `Commit and Push`.
-	* You should see a little green notification dialogue at the bottome of the screen confirming that the push was successful.
+	* You should see a little green notification dialogue at the bottom of the screen confirming that the push was successful.
 		
 3. **Bob** does the following (*without co-ordinating with Cindy*):
     * Pull Alice's changes `VCS` -> `git` -> `Pull...`, leave the defaults and click `Pull`.
 	* In the `Version Control` tool window (activate by clicking the little icon at the very bottom left of the IntelliJ window, and select `Version Control`), you should see Alice's changes.
-	* Create a new Java class in the `gitlab` package, `B` which just has a `toString()` method.  When prompted to add the new class to git, choose `Yes`.
+	* Create a new Java class in the `gittest` package, `B` which just has a `toString()` method.  When prompted to add the new class to git, choose `Yes`.
 	* Commit (`Ctrl+K`), set the author to `Bob <u1234567@anu.edu.au>`, but when you click `Commit`, just choose commit, **do not** choose `Commit and Push...`
 	* Do **not** push the change yet (we want to imagine Bob gets interrupted before pushing).
 	
 4. **Cindy** does the following (*without co-ordinating with Bob*):
     * Pull Alice's changes `VCS` -> `git` -> `Pull...`, leave the defaults and click `Pull`.
 	* In the `Version Control` tool window (activate by clicking the little icon at the very bottom left of the IntelliJ window, and select `Version Control`), you should see Alice's changes.
-	* Create a new Java class in the `gitlab` package, `C` which just has a `toString()` method.  When prompted to add the new class to git, choose `Yes`.
+	* Create a new Java class in the `gittest` package, `C` which just has a `toString()` method.  When prompted to add the new class to git, choose `Yes`.
 	* Commit (`Ctrl+K`), set the author to `Cindy <u1234567@anu.edu.au>`, and when you click `Commit`, choose `Commit and Push...`
-	* You should see a little green notification dialogue at the bottome of the screen confirming that the push was successful.
+	* You should see a little green notification dialogue at the bottom of the screen confirming that the push was successful.
 	
 5. **Bob** now does the following:
     * Try to push `Ctrl+Shift+K`, then click `Push`, and see an error message giving you the option to either intentionally push a new head, or merge. We will merge in the following steps.
