@@ -92,7 +92,7 @@ sitting nearby to each other.
 8. **Everyone** does the following (*at the same time*):
     * Update project (`Ctrl+T`).
     * Look at the `Log` tab of the Version Control tool window.
-    * Ensure that you are on the head of the master branch (i.e. not on Bob's experimental branch). The changeset you are on will be marked with the word `HEAD` in a yellow box. If you followed all of the steps, Alice and Cindy should have been the changeset where Bob did a merge (right before he made the branch). Bob will be on the wrong changeset, so he should move to the `master`: `VCS`, `Git`, `Branches`, `Local Branches`, and select `origin/master`.
+    * Ensure that you are on the head of the master branch (i.e. not on Bob's experimental branch). The changeset you are on will be marked with the word `HEAD` in a yellow box. If you followed all of the steps, Alice and Cindy should have been the changeset where Bob did a merge (right before he made the branch). Bob will be on the wrong changeset, so he should move to the `master`: `VCS`, `Git`, `Branches`, `Local Branches`, select `origin/master`, and then select `Checkout`.
 	* Now (ignoring Bob's experiment), everyone should edit the main method of `Main` and add a line such as `A a = new A();`, changed suitably to reflect the author (eg `B` for Bob and `C` for Cindy).
 	* Each person should now save their change and commit (**but don't yet push**) your change.  Remember to set your author name and a commit message.
 
