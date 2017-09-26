@@ -28,7 +28,7 @@ In this lab you will write a more advanced Java FX program.
 
 4.  **Fill the board with triangles**
 
-    Fill the board with a grid of triangles, storing each triangle in an `ArrayList<Triangle>`.  You should fit exactly four rows (each 86.6 pixels apart), each row having five triangles (three upright and two inverted). You will need to use the `setRotate()` method to invert some of the triangles.
+    Fill the board with a grid of triangles, storing each triangle in an `ArrayList<Triangle>`.  You should fit exactly three rows (each 173.2 pixels apart), each row having five triangles (three upright and two inverted). You will need to use the `setRotate()` method to invert some of the triangles.
 
 5. **Create a white boarder**
 
