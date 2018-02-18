@@ -6,7 +6,7 @@ It is essential that you use streams to [enroll](https://cs.anu.edu.au/streams/)
 
 ### The Labs Repository
 
-This repository is the basis for comp1110 lab exercises in 2017.   In [lab 1](src/comp1110/lab1/README.md), you will [**fork**](http://docs.gitlab.com/ee/gitlab-basics/fork-project.html) your own copy of this repository and the use that forked copy for the remainder of the semester.
+This repository is the basis for comp1110 lab exercises.   In [lab 1](src/comp1110/lab1/README.md), you will [**fork**](http://docs.gitlab.com/ee/gitlab-basics/fork-project.html) your own copy of this repository and the use that forked copy for the remainder of the semester.
 
 ### Lab Exercises
 
