@@ -10,10 +10,10 @@ and I am aware of the relevant [legislation](http://www.anu.edu.au/about/governa
 and understand the consequences of me breaching those rules.
 
 
-Name: <your name>
+Name: Yanming Feng
 
-UID: <your uid>
+UID: u6611178
 
-Date: <today's date>
+Date: 20 Feb 2018
 
 Signature:
