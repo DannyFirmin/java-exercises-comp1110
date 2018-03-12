@@ -16,7 +16,7 @@ Remember to [pull from upstream](https://gitlab.cecs.anu.edu.au/comp1110/comp111
     This exercise develops the concept of an *object*.
     
     In the Java package `comp1110.lab3`, within your labs repo, create a new
-    Java class, `Bucket`.  Instances of this class will represent a bucket
+    Java class, `Bucket`.  Instances of htis class will represent a bucket
     that can be filled with water.  When you create a new `Bucket` object, that new object will
     represent a bucket with a particular capacity, `capacity` and certain contents, `contents`.
     The units of measurement are not important to this exercise, but you could imagine
@@ -72,7 +72,6 @@ Remember to [pull from upstream](https://gitlab.cecs.anu.edu.au/comp1110/comp111
 
     Meet with your group to discuss expectations and responsibilities for the
     assignment. Some suggested points for discussion:
-
     - What do you want to achieve in this assignment?
     - How will you communicate between group members?
     - Will you meet regularly to discuss your work?
