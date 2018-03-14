@@ -7,6 +7,8 @@ groups for the group assignment.
 
 **It is essential that you complete this lab and have a tutor mark it off during the lab**.
 
+Remember to [pull from upstream](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs/blob/master/src/comp1110/lab2/README.md#gitlab-task) before beginning this lab.
+
 ## Tasks
 
 1. **Create, debug and test the Bucket class.**
@@ -14,7 +16,7 @@ groups for the group assignment.
     This exercise develops the concept of an *object*.
     
     In the Java package `comp1110.lab3`, within your labs repo, create a new
-    Java class, `Bucket`.  Instances of this class will represent a bucket
+    Java class, `Bucket`.  Instances of htis class will represent a bucket
     that can be filled with water.  When you create a new `Bucket` object, that new object will
     represent a bucket with a particular capacity, `capacity` and certain contents, `contents`.
     The units of measurement are not important to this exercise, but you could imagine
@@ -61,12 +63,24 @@ groups for the group assignment.
 
 2. **Assignment Groups.**
 
-    During today's lab you are required to form a group for the assignment.
-    The group must be composed only of members of your lab group, and must have
-    three members (because lab sizes are not necessarily multiples of three,
-    your tutor may allow a maximum of two groups per lab to have have two members).
+    During today's lab you will be assigned a group for the assignment.
+    The group will be composed only of members of your lab group, and may have
+    two or three members (because lab sizes are not necessarily multiples of 
+    three, we may allow a maximum of two groups per lab to have two members).
     A key element of this course is completion of this group project, so
-    successful group formation is a very important step.
+    successful planning with your group is a very important step.
+
+    Meet with your group to discuss expectations and responsibilities for the
+    assignment. Some suggested points for discussion:
+    - What do you want to achieve in this assignment?
+    - How will you communicate between group members?
+    - Will you meet regularly to discuss your work?
+    - What commitments can each member make today?
+
+    One *and only one* member of your group should fork the [assignment 
+    repository](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2) for
+    all members of the group to use.
+    Let your tutor know who forked the repository.
     
     Close the associated issue (#11) and inform your tutor of your group
     composition.

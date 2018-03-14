@@ -106,7 +106,7 @@ demonstrating **sequence**, **selection**, and **repetition**.  We will start
     resulting triangle. The first line should have one`*`, the second will have
     a `*` followed by one space, followed by a `*`, the third will have three
     spaces, the fourth will have five, etc. The last line will have (height x 2) - 1
-    `*`'s. For example, for an input of 5, the output might look like this
+    `*`'s. For example, for an input of 5, the output should look like this
     (here a '_' is drawn to represent a space character):
 ```
 ____*
