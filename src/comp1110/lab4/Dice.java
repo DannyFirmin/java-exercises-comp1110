@@ -8,9 +8,11 @@ public class Dice {
     };
 
     public static void main(String[] args) {
-        boolean[] usedDice = new boolean[dice.length];
-        Random rand = new Random();
-        int rr = rand.nextInt(6);
-        System.out.print(dice[rr]);
+
+        for (int i = 1; i <= 10; i++){
+            Random rand = new Random();
+            int rr = rand.nextInt(6);
+            System.out.println(dice[rr]);
+        }
     }
 }
