@@ -17,12 +17,14 @@ public class Board extends Application {
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Board");
-        StackPane root = new StackPane();
+        Group root = new Group();
         Scene scene = new Scene(root,600,519);
         primaryStage.setScene(scene);
         primaryStage.show();
 
         Polygon triangle = new Polygon(0,-86.6,100,86.6,-100,86.6);//where to put postion(0,0)?
+        triangle.setLayoutX(300);
+        triangle.setLayoutY(259.5);
         triangle.setFill(Color.LIGHTGREY);
         root.getChildren().add(triangle);
 
