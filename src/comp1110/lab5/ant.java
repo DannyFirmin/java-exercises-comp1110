@@ -6,11 +6,13 @@ import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.shape.Rectangle;
+import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
 import java.util.Random;
+
+import static javafx.scene.paint.Color.GREY;
 
 public class ant extends Application {
 
@@ -24,27 +26,29 @@ public class ant extends Application {
         Group root = new Group();
         Scene scene = new Scene(root, 400, 300);
         primaryStage.setScene(scene);
-        Rectangle myant = new Rectangle(100, 100, 5, 5);
+        Circle myant = new Circle(100, 100, 3);
         root.getChildren().add(myant);
 
 
 
-        Timeline timeline = new Timeline(new KeyFrame(Duration.millis(100),
+        Timeline timeline = new Timeline(new KeyFrame(Duration.millis(1),
                 ae -> {
                     Random rand = new Random();
 
-                    double origX = myant.getX();
-                    double origY = myant.getY();
+                    double origX = myant.getCenterX();
+                    double origY = myant.getCenterY();
 
                     int x = rand.nextInt(11) - 5;
                     int y = rand.nextInt(11) - 5;
-                    myant.setX((int)origX + x);
-                    myant.setY((int)origY + y);
-                    if (x > 300 || x < -300 || y > 300 || y < -300) {
+                    if (origX + x > 400 || origX + x < 0 || origY + y > 300 || origY + y < 0) {
                         x = 0;
                         y = 0;
                     }
-                    Rectangle path = new Rectangle(myant.getX(), myant.getY(), 5, 5);
+
+                    myant.setCenterX((int)origX + x);
+                    myant.setCenterY((int)origY + y);
+
+                    Circle path = new Circle(myant.getCenterX(), myant.getCenterY(), 3, GREY);
                     root.getChildren().add(path);
 
 
