@@ -31,7 +31,7 @@ public class ant extends Application {
 
 
 
-        Timeline timeline = new Timeline(new KeyFrame(Duration.millis(1),
+        Timeline timeline = new Timeline(new KeyFrame(Duration.millis(100),
                 ae -> {
                     Random rand = new Random();
 
