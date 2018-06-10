@@ -59,16 +59,16 @@ public class Board extends Application {
             this.setLayoutY(y);
             this.setFill(Color.LIGHTGREY);
 
-            double h = side * Math.sin(Math.PI * 60 / 180);
+       //     double h = side * Math.sin(Math.PI * 60 / 180);
 
 
 
-            double x1 = x;
-            double y1 = y + h / 2;
-            double x2 = x - side;
-            double y2 = y - h / 2;
-            double x3 = x + side;
-            double y3 = y - h / 2;
+//            double x1 = x;
+//            double y1 = y + h / 2;
+//            double x2 = x - side;
+//            double y2 = y - h / 2;
+//            double x3 = x + side;
+//            double y3 = y - h / 2;
 
 //                            getPoints().addAll(x1,y1,x2,y2,x3,y3);
 
